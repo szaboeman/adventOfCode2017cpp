@@ -105,7 +105,7 @@ public:
             program.lep();
         }*/
         int db=0;
-        program.reg['b']=105700;
+        program.reg['b']=109900;
         program.reg['c']=program.reg['b']+17000;
         for (int i=program.reg['b']; i<=program.reg['c']; i+=17) {
             if (!prime(i)) {
